@@ -1,0 +1,447 @@
+fileFormatVersion: 2
+guid: cc36ab2da1fc7455482603b9a93a13dc
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_0
+    21300002: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_1
+    21300004: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_2
+    21300006: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_3
+    21300008: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_4
+    21300010: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_5
+    21300012: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_6
+    21300014: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_7
+    21300016: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_8
+    21300018: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_9
+    21300020: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_10
+    21300022: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_11
+    21300024: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_12
+    21300026: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_13
+    21300028: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_14
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 303
+        width: 94
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab41c00e18a64be58600061881f0929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 303
+        width: 71
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ff84a17575949948a5a8764efc049a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_2
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 303
+        width: 45
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5c66025867a468baf8e1a1ca21671f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_3
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 301
+        width: 44
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3278e76bf628b488aa3c3b0375071010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_4
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 302
+        width: 69
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc36f249a6254179b83ca14e6cbe3e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 182
+        width: 96
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e0ce601f59f454b90458be9d8d5438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_6
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 182
+        width: 68
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb22a2adf007447e89cd171ff074bbc2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 178
+        width: 44
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc693e48430934be1b40bb72f50c003d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_8
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 182
+        width: 43
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f5a349618d0415aa5e1f18d55ac257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_9
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 182
+        width: 69
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7449a12f5e344497389b5d840444f5e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 61
+        width: 92
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87033e3f7dca4488599915643e840f09
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_11
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 61
+        width: 67
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b993aef6ed249ffb133f1abcd422c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_12
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 61
+        width: 44
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937ecfecff1e64cfe83f3679b2d4c99a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_13
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 61
+        width: 43
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38e906a5b6d4464d924029c4cfd144a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 76540289-stock-vector-pixel-art-heart-animation-set-5-frame-spinning-8-bit-icon-in-different-styles-game-art-vector-illust_14
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 61
+        width: 68
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb163aff1bf97441488c317886f34c5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7295771659b0b48709821f4eb90ff730
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
