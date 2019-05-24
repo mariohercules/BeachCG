@@ -14,6 +14,8 @@ public class GarbageMovement : MonoBehaviour
 
     private UIManager uIManager;
 
+    private string objectName;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +28,7 @@ public class GarbageMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        string objectName = gameObject.name;
+        objectName = gameObject.name;
 
         if(objectName == "recycle_items_0") {
             this.positionX += 0.1f;
@@ -51,13 +53,34 @@ public class GarbageMovement : MonoBehaviour
 }
 
     void OnCollisionEnter2D(Collision2D collision){
-        if(collision.gameObject.tag == "boat") {
+
+
+
+        if (collision.gameObject.tag == "boat")
+        {
+            if (objectName == "recycle_items_0(Clone)")
+            {
+
+                Debug.Log("Life in: " + Variables.life);
+                Debug.Log("objectname: " + objectName);
+
+                Variables.life += 1;
+                uIManager.GetMoreLife();
+
+                Destroy(gameObject);
+            }
+        }
+
+        if (collision.gameObject.tag == "boat") {
             Destroy(gameObject);
 
             uIManager.AddPoint();
             //Debug.Log("Pontos: " + Variables.points);
         }
-       
+
+       // Debug.Log("Life out: " + Variables.life);
+
+
     }
 
     void OnBecameInvisible()
