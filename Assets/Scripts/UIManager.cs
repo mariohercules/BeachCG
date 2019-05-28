@@ -26,10 +26,23 @@ public class UIManager : MonoBehaviour
         }
 
     }
+     
+
+    public void GetMoreLife()
+    {
+
+        for (int i = 0; i < Variables.life; i++)
+        {
+            images[i].enabled = true;
+        }
+  
+    }
 
     public void AddPoint()
     {
         Variables.points += 1;
         points.text = "" + Variables.points;
     }
+
+
 }
