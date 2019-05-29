@@ -16,11 +16,11 @@ public class UIManager : MonoBehaviour
 
     public void UpdateLife()
     {
-        if(Variables.life >= 0)
+        if(Variables.life >= 0 && Variables.life < 3)
         {
             images[Variables.life].enabled = false;
         }
-        if(Variables.life == 0)
+        if(Variables.life < 0)
         {
             GenerateTrash.stop = true;
         }
@@ -29,13 +29,13 @@ public class UIManager : MonoBehaviour
      
 
     public void GetMoreLife()
-    {
-
-        for (int i = 0; i < Variables.life; i++)
+    { 
+        if (Variables.life < 3 && Variables.life > -1)
         {
-            images[i].enabled = true;
+            images[Variables.life].enabled = true;
+            Variables.life += 1;
         }
-  
+
     }
 
     public void AddPoint()

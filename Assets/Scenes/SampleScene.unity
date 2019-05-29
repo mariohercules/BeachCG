@@ -853,10 +853,10 @@ MonoBehaviour:
   - {fileID: 7150926664179281544, guid: deef61541ad8e4cdcb776b05670181ed, type: 3}
   - {fileID: 5930499692105827102, guid: 9fcd45aa4182c4953ab4836a040363f1, type: 3}
   - {fileID: 5161738033429640314, guid: 57135fafdaec24ce1a83b9acc088fbab, type: 3}
-  spawnValue: {x: 10, y: 11, z: 1}
-  spawnWait: 2
+  spawnValue: {x: 12, y: 11, z: 1}
+  spawnWait: 4
   startWait: 2
-  spawnMostWait: 2
+  spawnMostWait: 4
   spawnLeastWait: 2
 --- !u!1 &1501490922
 GameObject:

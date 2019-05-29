@@ -33,9 +33,9 @@ public class BasicMovement : MonoBehaviour
         //transform.Translate(-Input.GetAxis("Horizontal")* speed, 0, 0);
         //transform.Translate(0, Input.GetAxis("Vertical") * speed, 0);
 
-        //Vector3 position = transform.position;
-        //position.x = Mathf.Clamp(position.x, -12, 12);
-        //position.y = Mathf.Clamp(position.y, -5, 5);
-        //transform.position = position;
+        Vector3 position = transform.position;
+        position.x = Mathf.Clamp(position.x, -21, 21);
+        position.y = Mathf.Clamp(position.y, -12, 12);
+        transform.position = position;
     }
 }

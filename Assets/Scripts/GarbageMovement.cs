@@ -20,8 +20,8 @@ public class GarbageMovement : MonoBehaviour
     void Start()
     {
         mainCamera = Camera.main;
-        this.positionX = transform.position.x;
-        this.positionY = transform.position.y;
+        //this.positionX = transform.position.x;
+        //this.positionY = transform.position.y;
         uIManager = GameObject.Find("Canvas").GetComponent<UIManager>();
     }
 
@@ -34,6 +34,8 @@ public class GarbageMovement : MonoBehaviour
             this.positionX += 0.1f;
         }
         else {
+            
+
             this.positionY -= 0.1f;
         }
 
@@ -44,13 +46,16 @@ public class GarbageMovement : MonoBehaviour
         //Logica de sair da camera
         Vector2 screenPosition = mainCamera.WorldToScreenPoint(transform.position);
         if (screenPosition.y < this.positionY) {
-            Variables.life -= 1;
-            uIManager.UpdateLife();
+            //Se não for o coração, perde ponto
+            if (objectName != "recycle_items_0(Clone)")
+            {
+                Variables.life -= 1;
+                uIManager.UpdateLife();
+            }
             Destroy(gameObject);
-
-
         }
-}
+
+    }
 
     void OnCollisionEnter2D(Collision2D collision){
 
@@ -64,21 +69,20 @@ public class GarbageMovement : MonoBehaviour
                 Debug.Log("Life in: " + Variables.life);
                 Debug.Log("objectname: " + objectName);
 
-                Variables.life += 1;
+
+
                 uIManager.GetMoreLife();
 
                 Destroy(gameObject);
             }
-        }
-
-        if (collision.gameObject.tag == "boat") {
-            Destroy(gameObject);
 
             uIManager.AddPoint();
-            //Debug.Log("Pontos: " + Variables.points);
+            Destroy(gameObject);
+
         }
 
-       // Debug.Log("Life out: " + Variables.life);
+      
+    
 
 
     }
