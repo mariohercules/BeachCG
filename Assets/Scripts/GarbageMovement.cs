@@ -8,6 +8,7 @@ public class GarbageMovement : MonoBehaviour
     private float velocity = 0.1f;
     private float positionX = 0; 
     private float positionY = 0;
+    private GameObject gameOverText;
 
 
     private Camera mainCamera;
@@ -16,6 +17,8 @@ public class GarbageMovement : MonoBehaviour
 
     private string objectName;
 
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +26,8 @@ public class GarbageMovement : MonoBehaviour
         //this.positionX = transform.position.x;
         //this.positionY = transform.position.y;
         uIManager = GameObject.Find("Canvas").GetComponent<UIManager>();
+        //gameOverText = GameObject.FindGameObjectWithTag("gameOverText");
+        //gameOverText.SetActive(false);
     }
 
     // Update is called once per frame
@@ -31,12 +36,12 @@ public class GarbageMovement : MonoBehaviour
         objectName = gameObject.name;
 
         if(objectName == "recycle_items_0") {
-            this.positionX += 0.1f;
+            this.positionX += Variables.dificulty;
         }
         else {
             
 
-            this.positionY -= 0.1f;
+            this.positionY -= Variables.dificulty;
         }
 
         Vector2 directionMovement = new Vector2(this.positionX, this.positionY);
@@ -51,6 +56,13 @@ public class GarbageMovement : MonoBehaviour
             {
                 Variables.life -= 1;
                 uIManager.UpdateLife();
+
+                if(Variables.life < 0)
+                {
+                    Variables.stop = true;
+                    //gameOverText.SetActive(true);
+
+                }
             }
             Destroy(gameObject);
         }
@@ -58,8 +70,6 @@ public class GarbageMovement : MonoBehaviour
     }
 
     void OnCollisionEnter2D(Collision2D collision){
-
-
 
         if (collision.gameObject.tag == "boat")
         {
@@ -69,16 +79,21 @@ public class GarbageMovement : MonoBehaviour
                 Debug.Log("Life in: " + Variables.life);
                 Debug.Log("objectname: " + objectName);
 
-
-
                 uIManager.GetMoreLife();
 
                 Destroy(gameObject);
             }
 
             uIManager.AddPoint();
+
+            if (Variables.points % 5 == 0)
+            {
+                Variables.dificulty += 0.05f;
+            }
+
             Destroy(gameObject);
 
+             
         }
 
       

@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - boat
+  - gameOverText
+  - trash
+  - music
+  - gameMain
+  - gamePlayerInfo
+  - gameRanking
   layers:
   - Default
   - TransparentFX

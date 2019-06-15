@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7150926664179281548}
   m_Layer: 0
   m_Name: recycle_items_3
-  m_TagString: Untagged
+  m_TagString: trash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

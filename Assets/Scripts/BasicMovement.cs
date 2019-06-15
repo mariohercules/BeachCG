@@ -6,11 +6,14 @@ public class BasicMovement : MonoBehaviour
 {
     public float maxSpeed = 3.5f;
     public float rootSpeed = 180f;
+
+    public AudioSource garbage;
+     
     // public float speed;
     // Start is called before the first frame update
     void Start()
     {
-       
+        garbage = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -38,4 +41,11 @@ public class BasicMovement : MonoBehaviour
         position.y = Mathf.Clamp(position.y, -12, 12);
         transform.position = position;
     }
+
+    // play music 
+    public void PlaySound()
+    {
+        garbage.Play();
+    }
+
 }

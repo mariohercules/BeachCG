@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{83AAC3E7-D462-53E8-DA00-518F26B97D3A}</ProjectGuid>
+    <ProjectGuid>{1C6EE64C-DB2B-ACD4-2EB8-BEE3D787276D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_3_7;UNITY_2018_3;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_OSX;PLATFORM_STANDALONE;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_3_11;UNITY_2018_3;UNITY_2018;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_WEBGL;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -48,8 +48,8 @@
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
     <UnityProjectType>Game:1</UnityProjectType>
-    <UnityBuildTarget>StandaloneOSX:2</UnityBuildTarget>
-    <UnityVersion>2018.3.7f1</UnityVersion>
+    <UnityBuildTarget>WebGL:20</UnityBuildTarget>
+    <UnityVersion>2018.3.11f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -60,10 +60,137 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\PubNub\Builders\ChannelGroup\AddChannelsToChannelGroupRequestBuilder.cs" />
+    <Compile Include="Assets\PubNub\Builders\ChannelGroup\DeleteChannelGroupRequestBuilder.cs" />
+    <Compile Include="Assets\PubNub\Builders\ChannelGroup\GetAllChannelsForGroupRequestBuilder.cs" />
+    <Compile Include="Assets\PubNub\Builders\ChannelGroup\GetChannelGroupsRequestBuilder.cs" />
+    <Compile Include="Assets\PubNub\Builders\ChannelGroup\RemoveChannelsFromGroupRequestBuilder.cs" />
+    <Compile Include="Assets\PubNub\Builders\History\DeleteMessagesRequestBuilder.cs" />
+    <Compile Include="Assets\PubNub\Builders\History\FetchMessagesRequestBuilder.cs" />
+    <Compile Include="Assets\PubNub\Builders\History\HistoryRequestBuilder.cs" />
+    <Compile Include="Assets\PubNub\Builders\Presence\GetStateRequestBuilder.cs" />
+    <Compile Include="Assets\PubNub\Builders\Presence\HereNowRequestBuilder.cs" />
+    <Compile Include="Assets\PubNub\Builders\Presence\SetStateRequestBuilder.cs" />
+    <Compile Include="Assets\PubNub\Builders\Presence\WhereNowRequestBuilder.cs" />
+    <Compile Include="Assets\PubNub\Builders\PubNubNonSubBuilder.cs" />
+    <Compile Include="Assets\PubNub\Builders\PubSub\LeaveRequestBuilder.cs" />
+    <Compile Include="Assets\PubNub\Builders\PubSub\PublishRequestBuilder.cs" />
+    <Compile Include="Assets\PubNub\Builders\PubSub\SubscribeRequestBuilder.cs" />
+    <Compile Include="Assets\PubNub\Builders\Push\AddChannelsToPushRequestBuilder.cs" />
+    <Compile Include="Assets\PubNub\Builders\Push\ListPushProvisionsRequestBuilder.cs" />
+    <Compile Include="Assets\PubNub\Builders\Push\RemoveAllPushChannelsForDeviceRequestBuilder.cs" />
+    <Compile Include="Assets\PubNub\Builders\Push\RemoveChannelsFromPushRequestBuilder.cs" />
+    <Compile Include="Assets\PubNub\Builders\TimeRequestBuilder.cs" />
+    <Compile Include="Assets\PubNub\Crypto\MD5.cs" />
+    <Compile Include="Assets\PubNub\Crypto\PubnubCrypto.cs" />
+    <Compile Include="Assets\PubNub\EndPoints\ChannelGroup\AddChannelsToChannelGroupBuilder.cs" />
+    <Compile Include="Assets\PubNub\EndPoints\ChannelGroup\DeleteChannelGroupBuilder.cs" />
+    <Compile Include="Assets\PubNub\EndPoints\ChannelGroup\GetAllChannelsForGroupBuilder.cs" />
+    <Compile Include="Assets\PubNub\EndPoints\ChannelGroup\GetChannelGroupsBuilder.cs" />
+    <Compile Include="Assets\PubNub\EndPoints\ChannelGroup\RemoveChannelsFromGroupBuilder.cs" />
+    <Compile Include="Assets\PubNub\EndPoints\HIstory\DeleteMessagesBuilder.cs" />
+    <Compile Include="Assets\PubNub\EndPoints\HIstory\FetchBuilder.cs" />
+    <Compile Include="Assets\PubNub\EndPoints\HIstory\HistoryBuilder.cs" />
+    <Compile Include="Assets\PubNub\EndPoints\Presence\GetStateBuilder.cs" />
+    <Compile Include="Assets\PubNub\EndPoints\Presence\HereNowBuilder.cs" />
+    <Compile Include="Assets\PubNub\EndPoints\Presence\SetStateBuilder.cs" />
+    <Compile Include="Assets\PubNub\EndPoints\Presence\WhereNowBuilder.cs" />
+    <Compile Include="Assets\PubNub\EndPoints\PubSub\FireBuilder.cs" />
+    <Compile Include="Assets\PubNub\EndPoints\PubSub\PublishBuilder.cs" />
+    <Compile Include="Assets\PubNub\EndPoints\PubSub\SubscribeBuilder.cs" />
+    <Compile Include="Assets\PubNub\EndPoints\PubSub\UnsubscribeAllBuilder.cs" />
+    <Compile Include="Assets\PubNub\EndPoints\PubSub\UnsubscribeBuilder.cs" />
+    <Compile Include="Assets\PubNub\EndPoints\Push\AddChannelsToPushBuilder.cs" />
+    <Compile Include="Assets\PubNub\EndPoints\Push\ListPushProvisionsBuilder.cs" />
+    <Compile Include="Assets\PubNub\EndPoints\Push\RemoveAllPushChannelsForDeviceBuilder.cs" />
+    <Compile Include="Assets\PubNub\EndPoints\Push\RemoveChannelsFromPushBuilder.cs" />
+    <Compile Include="Assets\PubNub\EndPoints\TimeBuilder.cs" />
+    <Compile Include="Assets\PubNub\Entities\ChannelEntity.cs" />
+    <Compile Include="Assets\PubNub\Entities\ChannelIdentity.cs" />
+    <Compile Include="Assets\PubNub\Entities\ChannelParameters.cs" />
+    <Compile Include="Assets\PubNub\Entities\QueueStorage.cs" />
+    <Compile Include="Assets\PubNub\Enum\HTTPMethod.cs" />
+    <Compile Include="Assets\PubNub\Enum\PNCurrentRequestType.cs" />
+    <Compile Include="Assets\PubNub\Enum\PNErrorData.cs" />
+    <Compile Include="Assets\PubNub\Enum\PNHeartbeatNotificationOption.cs" />
+    <Compile Include="Assets\PubNub\Enum\PNLogVerbosity.cs" />
+    <Compile Include="Assets\PubNub\Enum\PNOperationType.cs" />
+    <Compile Include="Assets\PubNub\Enum\PNPushType.cs" />
+    <Compile Include="Assets\PubNub\Enum\PNReconnectionPolicy.cs" />
+    <Compile Include="Assets\PubNub\Enum\PNStatusCategory.cs" />
+    <Compile Include="Assets\PubNub\Events\CustomEventArgs.cs" />
+    <Compile Include="Assets\PubNub\Events\EventExtenstions.cs" />
+    <Compile Include="Assets\PubNub\Examples\Example.cs" />
+    <Compile Include="Assets\PubNub\ExceptionHandlers\ExceptionHandlerEventArgs.cs" />
+    <Compile Include="Assets\PubNub\Helpers\CommonText.cs" />
+    <Compile Include="Assets\PubNub\Helpers\CustomException.cs" />
+    <Compile Include="Assets\PubNub\Helpers\Helpers.cs" />
+    <Compile Include="Assets\PubNub\Helpers\SafeDictionary.cs" />
+    <Compile Include="Assets\PubNub\Helpers\Utility.cs" />
+    <Compile Include="Assets\PubNub\Interface\IPubNubNoChannelsBuilder.cs" />
+    <Compile Include="Assets\PubNub\Interface\IPubNubNonSubscribeBuilder.cs" />
+    <Compile Include="Assets\PubNub\Interface\IPubNubSubcribeBuilder.cs" />
+    <Compile Include="Assets\PubNub\Logger\PNLoggingMethod.cs" />
+    <Compile Include="Assets\PubNub\Managers\PNLatencyManager.cs" />
+    <Compile Include="Assets\PubNub\Managers\QueueManager.cs" />
+    <Compile Include="Assets\PubNub\Managers\RequestQueue.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\ChannelGroup\PNChannelGroupsAddChannelResult.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\ChannelGroup\PNChannelGroupsAllChannelsResult.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\ChannelGroup\PNChannelGroupsDeleteGroupResult.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\ChannelGroup\PNChannelGroupsListAllResult.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\ChannelGroup\PNChannelGroupsRemoveChannelResult.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\History\PNDeleteMessagesResult.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\History\PNFetchMessagesResult.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\History\PNHistoryResult.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\PNResult.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\PNStatus.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\PNTimeResult.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\Presence\PNGetStateResult.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\Presence\PNHereNowResult.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\Presence\PNPresenceHeartbeatResult.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\Presence\PNSetStateResult.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\Presence\PNWhereNowResult.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\Publish\PNPublishResult.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\PubSub\PNLeaveRequestResult.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\PubSub\PNMessageResult.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\PubSub\PNPresenceEvent.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\PubSub\PNPresenceEventResult.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\PubSub\SubscribeEnvelope.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\PubSub\SubscribeMessage.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\PubSub\TimetokenMetadata.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\Push\PNPushAddChannelResult.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\Push\PNPushListProvisionsResult.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\Push\PNPushRemoveAllChannelsResult.cs" />
+    <Compile Include="Assets\PubNub\Models\Consumer\Push\PNPushRemoveChannelResult.cs" />
+    <Compile Include="Assets\PubNub\Models\Server\BuildRequests.cs" />
+    <Compile Include="Assets\PubNub\Models\Server\RequestState.cs" />
+    <Compile Include="Assets\PubNub\Models\Server\Subscription.cs" />
+    <Compile Include="Assets\PubNub\PlayModeTests\PlayModeCommon.cs" />
+    <Compile Include="Assets\PubNub\PlayModeTests\PlayModeTests.cs" />
+    <Compile Include="Assets\PubNub\PubNub.cs" />
+    <Compile Include="Assets\PubNub\PubNubUnity\PNConfiguration.cs" />
+    <Compile Include="Assets\PubNub\PubNubUnity\PubNubUnity.cs" />
+    <Compile Include="Assets\PubNub\PubNubUnity\PubNubUnityBase.cs" />
+    <Compile Include="Assets\PubNub\Serialization\JSONSerializer.cs" />
+    <Compile Include="Assets\PubNub\SimpleJSON-master\SimpleJSON.cs" />
+    <Compile Include="Assets\PubNub\SimpleJSON-master\SimpleJSONBinary.cs" />
+    <Compile Include="Assets\PubNub\SimpleJSON-master\SimpleJSONUnity.cs" />
+    <Compile Include="Assets\PubNub\ThirdParty\MiniJSON.cs" />
+    <Compile Include="Assets\PubNub\WebRequest\PNUnityWebRequest.cs" />
+    <Compile Include="Assets\PubNub\WebRequest\UnityWebRequestWrapper.cs" />
+    <Compile Include="Assets\PubNub\Workers\HeartbeatWorker.cs" />
+    <Compile Include="Assets\PubNub\Workers\NonSubscribeWorker.cs" />
+    <Compile Include="Assets\PubNub\Workers\PresenceHeartbeatWorker.cs" />
+    <Compile Include="Assets\PubNub\Workers\SubscriptionWorker.cs" />
+    <Compile Include="Assets\Scripts\AudioScript.cs" />
     <Compile Include="Assets\Scripts\BasicMovement.cs" />
     <Compile Include="Assets\Scripts\GarbageMovement.cs" />
+    <Compile Include="Assets\Scripts\GarbageTick.cs" />
     <Compile Include="Assets\Scripts\GenerateTrash.cs" />
+    <Compile Include="Assets\Scripts\GetInputText.cs" />
+    <Compile Include="Assets\Scripts\leaderBoard.cs" />
     <Compile Include="Assets\Scripts\StartGame.cs" />
+    <Compile Include="Assets\Scripts\ToggleSea.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
     <Compile Include="Assets\Scripts\Variables.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
@@ -121,19 +248,19 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/951546930/Downloads/BeachCG-master/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/u750371293/Desktop/Documents/beach_cg/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/951546930/Downloads/BeachCG-master/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/u750371293/Desktop/Documents/beach_cg/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/951546930/Downloads/BeachCG-master/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/u750371293/Desktop/Documents/beach_cg/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/951546930/Downloads/BeachCG-master/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/u750371293/Desktop/Documents/beach_cg/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Users/951546930/Downloads/BeachCG-master/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>/Users/u750371293/Desktop/Documents/beach_cg/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -158,12 +285,6 @@
     </Reference>
     <Reference Include="UnityEngine.ClothModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterInputModule">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterRendererModule">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
@@ -309,6 +430,9 @@
     <Reference Include="UnityEngine.VideoModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.WebGLModule">
+      <HintPath>/Applications/Unity/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WebGLModule.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.WindModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
     </Reference>
@@ -339,14 +463,23 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="MarkerMetro.Unity.WinLegacy">
+      <HintPath>/Users/u750371293/Desktop/Documents/beach_cg/Assets/PubNub/ThirdParty/MarkerMetro.Unity.WinLegacy.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle">
+      <HintPath>/Users/u750371293/Desktop/Documents/beach_cg/Assets/PubNub/ThirdParty/BouncyCastle.dll</HintPath>
+    </Reference>
+    <Reference Include="JsonFx.Json">
+      <HintPath>/Users/u750371293/Desktop/Documents/beach_cg/Assets/PubNub/ThirdParty/JsonFx.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/Users/951546930/Downloads/BeachCG-master/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>/Users/u750371293/Desktop/Documents/beach_cg/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/951546930/Downloads/BeachCG-master/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>/Users/u750371293/Desktop/Documents/beach_cg/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/951546930/Downloads/BeachCG-master/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Users/u750371293/Desktop/Documents/beach_cg/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

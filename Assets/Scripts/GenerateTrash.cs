@@ -43,7 +43,7 @@ public class GenerateTrash : MonoBehaviour
     public int startWait;
     public float spawnMostWait;
     public int spawnLeastWait;
-    public static bool stop;
+    
 
 
     int randEnemy;
@@ -65,7 +65,7 @@ public class GenerateTrash : MonoBehaviour
     {
        yield return new WaitForSeconds(startWait);
 
-       while(!stop)
+       while(!Variables.stop)
        {
            randEnemy = Random.Range(0, 5);
 
